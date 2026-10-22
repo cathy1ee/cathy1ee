@@ -1,4 +1,3 @@
-## Hi there 👋
 # Hi, I'm Catherine 👋
 
 I'm interested in quantitative trading, market microstructure, and derivatives pricing.
