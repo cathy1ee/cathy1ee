@@ -1,16 +1,20 @@
 ## Hi there 👋
+# Hi, I'm Catherine 👋
 
-<!--
-**cathy1ee/cathy1ee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm interested in quantitative trading, market microstructure, and derivatives pricing.
 
-Here are some ideas to get you started:
+- 🧩 Regular solver of the Jane Street monthly puzzles
+- 📈 Member of the UCR quant, math, and F1 clubs
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+
+**[Options Pricing Engine](https://github.com/cathy1ee/options-pricing-engine)** · C++17
+Black-Scholes, analytic Greeks, and Monte Carlo with antithetic variates. 1,562 validation checks (put-call parity to 1e-10, Greeks vs. finite differences); antithetic sampling halves estimator variance.
+
+**[Market-Making Simulator](https://github.com/cathy1ee/market-making-simulator)** · Python
+Avellaneda-Stoikov inventory-aware quoting vs. fixed spreads across 81 market regimes and 1.2M simulated sessions. Higher Sharpe in 81/81 configs with a 76% median drawdown reduction; vectorized NumPy is 28× faster than the reference loop.
+
+## Contact
+
+[Email](mailto:catherinelee693@gmail.com)
+
