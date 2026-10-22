@@ -2,9 +2,6 @@
 
 I'm interested in quantitative trading, market microstructure, and derivatives pricing.
 
-- 🧩 Regular solver of the Jane Street monthly puzzles
-- 📈 Member of the UCR quant, math, and F1 clubs
-
 ## Projects
 
 **[Options Pricing Engine](https://github.com/cathy1ee/options-pricing-engine)** · (C++17)
