@@ -1,4 +1,4 @@
-<h1 align="center">Catherine Lee</h1> <p align="center"> <b>Quant Trading · Statistics · Software Engineering</b> </p> <p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=cathy1ee&theme=onedark&no-frame=true&no-bg=false&margin-w=6&row=1&column=7" alt="GitHub trophies" /> </p>
+<h1 align="center">Catherine Lee</h1> <p align="center"> <b>Quant Trading · Statistics · Software Engineering</b> </p>
 
 ## Projects
 
