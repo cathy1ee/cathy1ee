@@ -1,6 +1,12 @@
 <h1 align="center">Catherine Lee</h1> <p align="center"> <b>Quant Trading · Statistics · Software Engineering</b> </p>
 
+## About
 
+I build trading systems from the ground up, with a focus on **quantitative trading**, statistics, and **low-latency C++**. I've been studying markets since I was 8; now I write the code behind them: a limit order book and matching engine, a market-making simulator, and an options pricing engine.
+
+
+
+Reach out via [email](mailto:catherinelee693@gmail.com).
 
 ## Featured projects
 
