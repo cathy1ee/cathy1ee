@@ -2,13 +2,6 @@
 
 
 
-## Featured projects
-
-| Project | Description | Stack |
-|---|---|---|
-| [**Market-Making Simulator**](https://github.com/cathy1ee/REPO-NAME) | Quotes bid/ask around a fair value, manages inventory risk, tracks P&L | Python, NumPy, pandas |
-| [**Options Pricing Engine**](https://github.com/cathy1ee/REPO-NAME) | Prices European and American options and computes the Greeks | C++ |
-
 ## Tech stack
 
 ### Languages
