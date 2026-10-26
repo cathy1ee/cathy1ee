@@ -1,16 +1,14 @@
 <h1 align="center">Catherine Lee</h1> <p align="center"> <b>Quant Trading · Statistics · Software Engineering</b> </p>
 
+
+
 ## Featured projects
 
-### [Market-Making Simulator](https://github.com/cathy1ee/REPO-NAME)
-Simulates a market maker quoting bid/ask prices around a fair value, managing inventory risk and tracking P&L over time.
+| Project | Description | Stack |
+|---|---|---|
+| [**Market-Making Simulator**](https://github.com/cathy1ee/REPO-NAME) | Quotes bid/ask around a fair value, manages inventory risk, tracks P&L | Python, NumPy, pandas |
+| [**Options Pricing Engine**](https://github.com/cathy1ee/REPO-NAME) | Prices European and American options and computes the Greeks | C++ |
 
-`Python` · `NumPy` · `pandas`
-
-### [Options Pricing Engine](https://github.com/cathy1ee/REPO-NAME)
-Prices European and American options and computes the Greeks using numerical methods.
-
-`C++`
 ## Tech stack
 
 ### Languages
