@@ -1,6 +1,6 @@
 <h1 align="center">Catherine Lee</h1> <p align="center"> <b>Quant Trading · Statistics · Software Engineering</b> </p>
 
-### About
+#### About
 
 I build trading systems from the ground up, with a focus on quantitative trading, statistics, and low-latency C++. I've been studying markets since I was 8; now I write the code behind them: a limit order book and matching engine, a market-making simulator, and an options pricing engine.
 
@@ -8,9 +8,9 @@ I build trading systems from the ground up, with a focus on quantitative trading
 
 Reach out via [email](mailto:catherinelee693@gmail.com)
 
-### Featured projects
+#### Featured projects
 
-### [Market-Making Simulator](https://github.com/cathy1ee/REPO-NAME)
+#### [Market-Making Simulator](https://github.com/cathy1ee/REPO-NAME)
 An event-driven simulator of a market maker quoting around a fair value in a limit order book.
 - Quotes bid/ask spreads that skew with inventory to control risk
 - Simulates order flow and fills, tracking P&L, inventory, and drawdown
@@ -18,7 +18,7 @@ An event-driven simulator of a market maker quoting around a fair value in a lim
 
 `Python` · `NumPy` · `pandas`
 
-### [Options Pricing Engine](https://github.com/cathy1ee/REPO-NAME)
+#### [Options Pricing Engine](https://github.com/cathy1ee/REPO-NAME)
 A C++ library for pricing options and computing risk sensitivities.
 - Black-Scholes closed form, binomial trees, and Monte Carlo pricing
 - Computes the Greeks (Δ, Γ, ν, Θ, ρ)
@@ -26,7 +26,7 @@ A C++ library for pricing options and computing risk sensitivities.
 
 `C++` · `CMake`
 
-### Tech stack
+#### Tech stack
 
 **Languages**
 
@@ -47,7 +47,7 @@ A C++ library for pricing options and computing risk sensitivities.
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
 
-### Contact
+#### Contact
 
 [Email](mailto:catherinelee693@gmail.com)
 
