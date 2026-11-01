@@ -11,7 +11,7 @@ Reach out via [email](mailto:catherinelee693@gmail.com)
 #### Featured projects
 
 #### [Market-Making Simulator](https://github.com/cathy1ee/REPO-NAME)
-An event-driven simulator of a market maker quoting around a fair value in a limit order book.
+An event-driven simulator of a market maker quoting around a fair value in a limit order book
 - Quotes bid/ask spreads that skew with inventory to control risk
 - Simulates order flow and fills, tracking P&L, inventory, and drawdown
 - Compares quoting strategies with summary statistics and plots
@@ -19,12 +19,21 @@ An event-driven simulator of a market maker quoting around a fair value in a lim
 `Python` · `NumPy` · `pandas`
 
 #### [Options Pricing Engine](https://github.com/cathy1ee/REPO-NAME)
-A C++ library for pricing options and computing risk sensitivities.
+A C++ library for pricing options and computing risk sensitivities
 - Black-Scholes closed form, binomial trees, and Monte Carlo pricing
 - Computes the Greeks (Δ, Γ, ν, Θ, ρ)
 - Benchmarks each method's accuracy and speed against the others
 
 `C++` · `CMake`
+
+#### [High-Frequency Market Microstructure & Order Book Analysis](https://github.com/cathy1ee/REPO-NAME)
+End-to-end analysis of message-level limit order book data (LOBSTER format). SQL computes the microstructure measures from every order event; R fits the models and generates the report.
+- Order Flow Imbalance (Cont–Kukanov–Stoikov) explains ~58% of 10-second mid-price changes
+- Queue imbalance predicts the direction of the next mid-price move ~60% of the time
+- Price impact by trade size (square-root law fit), effective/realized spread decomposition, Roll spread
+- Volatility signature plot showing bid-ask bounce in high-frequency trade prices
+
+`R` · `SQL` · `SQLite` · `ggplot2`
 
 #### Tech stack
 
