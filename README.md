@@ -26,12 +26,12 @@ European option pricer in C++17 (standard library only) that prices three ways a
 
 `C++17` · `Make`
 
-#### [High-Frequency Market Microstructure & Order Book Analysis](https://github.com/cathy1ee/REPO-NAME)
-End-to-end analysis of message-level limit order book data (LOBSTER format). SQL computes the microstructure measures from every order event; R fits the models and generates the report.
-- Order Flow Imbalance (Cont–Kukanov–Stoikov) explains ~58% of 10-second mid-price changes
-- Queue imbalance predicts the direction of the next mid-price move ~60% of the time
-- Price impact by trade size (square-root law fit), effective/realized spread decomposition, Roll spread
-- Volatility signature plot showing bid-ask bounce in high-frequency trade prices
+#### [High-Frequency Market Microstructure & Order Book Analysis](https://github.com/cathy1ee/lob-microstructure)
+R + SQL pipeline analyzing message-level Nasdaq order book data (LOBSTER): SQL computes microstructure measures from every order event; R fits the models and generates the report.
+- Order flow imbalance explains 83.5% of 10-second price changes in INTC vs. 50.1% in AAPL
+- Queue imbalance predicts the next mid-price move 65.3% of the time in INTC (P(up) 0.19 → 0.78 across deciles) vs. 55.7% in AAPL
+- Shows how tick size shapes order book informativeness: deep one-tick queues (INTC) vs. thin, wide-spread books (AAPL)
+- Price impact by trade size, effective/realized spread decomposition, volatility signature, and a built-in order book simulator
 
 `R` · `SQL` · `SQLite` · `ggplot2`
 
