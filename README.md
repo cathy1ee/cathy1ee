@@ -35,6 +35,12 @@ End-to-end analysis of message-level limit order book data (LOBSTER format). SQL
 
 `R` · `SQL` · `SQLite` · `ggplot2`
 
+#### [Limit Order Book & Matching Engine](https://github.com/cathy1ee/limit-order-book)
+Price-time priority limit order book and matching engine in C++20.
+- Matches incoming orders against resting liquidity with FIFO priority at each price level
+
+`C++20`
+
 #### Tech stack
 
 **Languages**
