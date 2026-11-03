@@ -11,8 +11,7 @@ I build trading systems from the ground up, with a focus on quantitative trading
 
 #### [Market-Making Simulator](https://github.com/cathy1ee/market-making-simulator)
 Avellaneda–Stoikov market-making simulator comparing 3 quoting strategies (fixed spread, inventory-skewed, adaptive EWMA volatility) on identical markets across 81 parameter configurations.
-- 1.2M simulated sessions (243M time steps) in ~20s; NumPy vectorization is ~25× faster than a Python loop, matching to 3e-13
-- Inventory-aware quoting beat fixed spreads on Sharpe in 81/81 configurations (median 1.8), cutting max drawdown 76% while keeping 93.5% of P&L
+- 1.2M simulated sessions (243M time steps) in ~20s; NumPy vectorization is 28× faster than a Python loop, matching to 3e-13- Inventory-aware quoting beat fixed spreads on Sharpe in 81/81 configurations (median 1.8), cutting max drawdown 76% while keeping 93.5% of P&L
 - Reproduces the paper's baseline (Sharpe 4.8 → 8.9, inventory std 8.0 → 2.9)
 - Regime-switching test: adaptive volatility estimation lifts Sharpe 6.6 → 7.6 at low risk aversion but backfires at high γ, where estimate noise is amplified by γσ²
 
