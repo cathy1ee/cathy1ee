@@ -17,13 +17,14 @@ An event-driven simulator of a market maker quoting around a fair value in a lim
 
 `Python` · `NumPy` · `pandas`
 
-#### [Options Pricing Engine](https://github.com/cathy1ee/REPO-NAME)
-A C++ library for pricing options and computing risk sensitivities
-- Black-Scholes closed form, binomial trees, and Monte Carlo pricing
-- Computes the Greeks (Δ, Γ, ν, Θ, ρ)
-- Benchmarks each method's accuracy and speed against the others
+#### [Options Pricing Engine](https://github.com/cathy1ee/options-pricing-engine)
+European option pricer in C++17 (standard library only) that prices three ways and cross-checks them.
+- Black–Scholes closed form at ~18.6M prices/sec (~54 ns each, single-threaded)
+- Analytic Greeks (Δ, Γ, ν, Θ, ρ), validated against finite differences (max relative error 1.35e-5)
+- Monte Carlo under GBM with antithetic variates, cutting variance ~50%; convergence slope −0.465 vs. theoretical −0.5
+- 1,562 automated checks across 240 option configurations (put-call parity to 1e-10, Hull textbook values)
 
-`C++` · `CMake`
+`C++17` · `Make`
 
 #### [High-Frequency Market Microstructure & Order Book Analysis](https://github.com/cathy1ee/REPO-NAME)
 End-to-end analysis of message-level limit order book data (LOBSTER format). SQL computes the microstructure measures from every order event; R fits the models and generates the report.
