@@ -36,10 +36,15 @@ R + SQL pipeline analyzing message-level Nasdaq order book data (LOBSTER): SQL c
 `R` · `SQL` · `SQLite` · `ggplot2`
 
 #### [Limit Order Book & Matching Engine](https://github.com/cathy1ee/limit-order-book)
-Price-time priority limit order book and matching engine in C++20.
-- Matches incoming orders against resting liquidity with FIFO priority at each price level
 
-`C++20`
+Price-time priority limit order book and matching engine in C++20, built to be correct first and then fast.
+
+- ~38M ops/s with 84 ns p99 latency; a memory pool, a flat price-level array with a bitmap scan, and intrusive lists give 1.5× the throughput and ~⅓ lower tail latency vs. a `std::map` baseline
+- Replays a full day of Nasdaq TotalView-ITCH 5.0 (368M messages, 8,695 symbols) with zero crossed adds, off-touch executions, or unknown order refs, handling halts and reopening auctions
+- Differential testing: 100k-op random order flows must match a reference book after every operation; GoogleTest under ASan/UBSan in CI
+- Limit and market orders, O(1) cancel, and modify with correct queue-priority rules
+
+`C++20` · `CMake` · `GoogleTest` · `GitHub Actions`
 
 #### Tech stack
 
