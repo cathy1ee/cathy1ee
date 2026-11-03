@@ -6,7 +6,6 @@ I build trading systems from the ground up, with a focus on quantitative trading
 
 
 
-Reach out via [email](mailto:catherinelee693@gmail.com)
 
 #### Featured projects
 
