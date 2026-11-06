@@ -4,8 +4,7 @@
 
 I build trading systems from the ground up, with a focus on quantitative trading, statistics, and low-latency C++. I've been studying markets since I was 8; now I write the code behind them: a limit order book and matching engine, a market-making simulator, and an options pricing engine.
 
-
-
+<p align="center"><img src="koi/koi.gif" width="256" alt="A pixel-art koi, redrawn every night from my GitHub activity" /></p>
 
 #### Featured projects
 
