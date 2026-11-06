@@ -1,12 +1,12 @@
 <h1 align="center">Catherine Lee</h1> <p align="center"> <b>Quant Trading · Statistics · Software Engineering</b> </p>
 
-#### About
+### About
 
 I build trading systems in C++ with a focus on low latency, statistics, and quantitative trading. Projects include a limit order book and matching engine, a market-making simulator, and an options pricing engine.
 
 <p align="center"><img src="koi/koi.gif" width="256" alt="A pixel-art koi, redrawn every night from my GitHub activity" /></p>
 
-#### Featured projects
+### Featured projects
 
 #### [Market-Making Simulator](https://github.com/cathy1ee/market-making-simulator)
 Avellaneda–Stoikov market-making simulator comparing 3 quoting strategies (fixed spread, inventory-skewed, adaptive EWMA volatility) on identical markets across 81 parameter configurations.
@@ -45,7 +45,7 @@ Price-time priority limit order book and matching engine in C++20, built to be c
 
 `C++20` · `CMake` · `GoogleTest` · `GitHub Actions`
 
-#### Tech stack
+### Tech stack
 
 **Languages**
 
@@ -70,7 +70,7 @@ Price-time priority limit order book and matching engine in C++20, built to be c
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
 
-#### Contact
+### Contact
 
 [Email](mailto:catherinelee693@gmail.com)
 
